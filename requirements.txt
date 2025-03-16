@@ -2,4 +2,4 @@ duckdb
 jupyter
 pandas
 matplotlib
-webtorrent-clirequirements.txt
+webtorrent-cli
