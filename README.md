@@ -67,7 +67,7 @@ Both options will prepare your data for analysis. Choose based on your preferenc
 Here are some examples of the analyses and visualizations you can create:
 
 ### Publication Year Distribution
-![Publication Year Distribution](https://ibb.co/jvF9BrqT)
+![Publication Year Distribution](https://i.ibb.co/3yH5GCV7/download.png)
 Analyze the distribution of publications across different years using advanced aggregation queries.
 
 ### Language Analysis
