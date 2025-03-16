@@ -50,8 +50,8 @@ This script will:
 2. Download the metadata torrent
 3. Extract required files
 4. Convert data to Parquet format
-5. Set up DuckDB views
 
+   
 #### Option 2: Using Jupyter Notebook
 1. Start the Jupyter environment:
    ```bash
