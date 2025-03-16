@@ -67,20 +67,20 @@ Both options will prepare your data for analysis. Choose based on your preferenc
 Here are some examples of the analyses and visualizations you can create:
 
 ### Publication Year Distribution
-![Publication Year Distribution](https://i.ibb.co/3yH5GCV7/download.png)
+![Publication Year Distribution](/images/Publication Year Distribution.png)
 Analyze the distribution of publications across different years using advanced aggregation queries.
 
 ### Language Analysis
-![Language Distribution](https://example.com/images/language_dist.png)
+![Language Distribution](/images/Language Distribution.png)
 Explore the diversity of languages in the dataset with interactive pie charts and bar graphs.
 
-### File Format Statistics
-![File Format Statistics](https://example.com/images/file_formats.png)
-Investigate the distribution of different file formats and their relationships with other metadata.
+### Rare vs. Non-Rare Books Analysis
+![Rare vs. Non-Rare](/images/Rare vs. Non-Rare.png)
+Discover the distribution between rare and non-rare books in the collection, providing insights into the uniqueness of the available literature.
 
-### Publisher Analysis
-![Top Publishers](https://example.com/images/top_publishers.png)
-Discover the most prominent publishers and their publication patterns over time.
+### Download Availability Analysis
+![Download Availability](/images/Download Availability.png)
+Explore the various download options available across the dataset, helping understand accessibility patterns and preferred distribution methods.
 
 ## 🚀 Quick Start
 
