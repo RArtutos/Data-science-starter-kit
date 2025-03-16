@@ -57,8 +57,8 @@ This script will:
    ```bash
    docker-compose up
    ```
-
-2. Open `SetupData.ipynb` in Jupyter and run all cells to process the data interactively
+2. Put the .gz of elasticsearch in the gz folder
+3. Open `SetupData.ipynb` in Jupyter and run all cells to process the data interactively
 
 Both options will prepare your data for analysis. Choose based on your preference for automation vs. interactive processing.
 
