@@ -24,6 +24,64 @@ A comprehensive Docker environment for analyzing book metadata using DuckDB, Jup
   - Matplotlib & Seaborn for visualization
   - Docker for environment consistency
 
+## 📥 Data Setup
+
+### Data File Locations
+The project uses the following directory structure:
+```
+data/
+├── elasticsearch/    # Original .gz files from Anna's Archive metadata
+├── json/            # Decompressed JSON files
+└── parquet/         # Converted Parquet files
+```
+
+### Data Processing Options
+
+You have two options for processing the data:
+
+#### Option 1: Using initialScript.py
+Run the script to automatically handle the entire pipeline:
+```bash
+python initialScript.py
+```
+
+This script will:
+1. Create necessary directories
+2. Download the metadata torrent
+3. Extract required files
+4. Convert data to Parquet format
+5. Set up DuckDB views
+
+#### Option 2: Using Jupyter Notebook
+1. Start the Jupyter environment:
+   ```bash
+   docker-compose up
+   ```
+
+2. Open `SetupData.ipynb` in Jupyter and run all cells to process the data interactively
+
+Both options will prepare your data for analysis. Choose based on your preference for automation vs. interactive processing.
+
+## 📊 Analysis Examples
+
+Here are some examples of the analyses and visualizations you can create:
+
+### Publication Year Distribution
+![Publication Year Distribution](https://example.com/images/pub_year_dist.png)
+Analyze the distribution of publications across different years using advanced aggregation queries.
+
+### Language Analysis
+![Language Distribution](https://example.com/images/language_dist.png)
+Explore the diversity of languages in the dataset with interactive pie charts and bar graphs.
+
+### File Format Statistics
+![File Format Statistics](https://example.com/images/file_formats.png)
+Investigate the distribution of different file formats and their relationships with other metadata.
+
+### Publisher Analysis
+![Top Publishers](https://example.com/images/top_publishers.png)
+Discover the most prominent publishers and their publication patterns over time.
+
 ## 🚀 Quick Start
 
 1. **Clone the Repository**
@@ -61,6 +119,7 @@ A comprehensive Docker environment for analyzing book metadata using DuckDB, Jup
 │   └── Queries_Test.ipynb      # Comprehensive query examples
 ├── docker-compose.yml
 ├── Dockerfile
+├── initialScript.py
 └── README.md
 ```
 
@@ -110,15 +169,3 @@ A comprehensive Docker environment for analyzing book metadata using DuckDB, Jup
 - Classification analysis
 - Identifier systems
 - Temporal analysis
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
