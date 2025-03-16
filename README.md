@@ -81,10 +81,36 @@ Explore the diversity of languages in the dataset with interactive pie charts an
 
 Discover the distribution between rare and non-rare books in the collection, providing insights into the uniqueness of the available literature.
 
+### AACID Analysis
+![AACID Analysis](images/AACID%20Analysis.png)
+
+Analyzing AACID patterns to identify trends and structures within the dataset, providing insights into unique identifiers and their distribution.
+
 ### Download Availability Analysis
 ![Download Availability](images/Download%20Availability.png)
 
 Explore the various download options available across the dataset, helping understand accessibility patterns and preferred distribution methods.
+
+### Cover URL Analysis
+![Cover URL Analysis](images/Cover%20URL%20Analysis.png)
+
+Examines the presence and distribution of cover images within the collection, providing insights into the visual availability of books.
+
+### File Size Distribution by Content Type
+![File Size Distribution](images/File%20Size%20Distribution.png)
+
+Analyzes the distribution of file sizes by content type, helping to understand variability in storage and document formats.
+
+### Classification Analysis
+![Classification Analysis](images/Classification%20Analysis.png)
+
+Explores the unified classification of books in the collection, offering a structured view of the categories present.
+
+### Score Analysis
+![Score Analysis](images/Score%20Analysis.png)
+
+Analyzes the base rank scores of books, providing insights into their evaluation and relevance within the dataset.
+
 
 ## 🚀 Quick Start
 
