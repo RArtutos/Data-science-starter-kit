@@ -134,18 +134,8 @@ Explore the various download options available across the dataset, helping under
 - JSON to Parquet conversion
 - Chunked processing implementation
 
-### 2. basic_queries.ipynb
-- Fundamental DuckDB operations
-- Basic data exploration
-- Simple visualizations
-
-### 3. advanced_analysis.ipynb
-- Complex SQL queries
-- Advanced visualizations
-- Statistical analysis
-
-### 4. Queries_Test.ipynb
-- 20 comprehensive analysis queries
+### 2. Queries_Test.ipynb
+- 18 comprehensive analysis queries
 - In-depth metadata exploration
 - Advanced visualization techniques
 
@@ -154,7 +144,6 @@ Explore the various download options available across the dataset, helping under
 ### Memory Settings
 - DuckDB memory limit: 28GB
 - Python environment: 3.12
-- Recommended system RAM: 32GB
 
 ### Docker Settings
 - Port mapping: 8888:8888
