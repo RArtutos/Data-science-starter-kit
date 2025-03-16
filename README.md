@@ -1,6 +1,7 @@
 # DuckDB Analysis Environment for Book Metadata
 
 A comprehensive Docker environment for analyzing book metadata using DuckDB, Jupyter notebooks, and data visualization tools.
+[Google drive folder with .parquet files](https://drive.google.com/drive/folders/1Z8gC0HPT5LTJaV-0_UtwlkBZXMNof4xM?usp=sharing)
 
 ## 🌟 Features
 
